@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: black;
+    height: 40px;
+    width: 100%;    
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub{
+    display: flex;
+    height: 769px;
+}
+
+.formwala{
+    width: 70%;
+    /* height: 760px; */
+    background: url(evie-s-uuCjYxJVf4o-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photowala{
+    width: 40%;
+    /* height: ; */
+    background: url(everton-vila-Ah_5-iQCCSw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+form{
+    height: 600px;
+    width: 750px;
+    margin-top: 65px;
+    margin-left: 51px;
+}
+
+label{
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 21px; 
+    line-height: 30px;
+}
+
+input{
+   border: 1px solid black;
+   border-radius: 3px;
+}
+
+#fn{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+#ln{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left: 51px;
+}
+
+#fathn{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:33px;
+}
+
+#mothn{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:26px;
+}
+
+
+span{
+    margin-left: 45px;
+}
+
+span>input{
+    margin-left: 25px;
+}
+
+span>label{
+    padding-right: 99px;
+    padding-left: 0px;
+}
+
+#bd{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:57px;
+}
+
+#ht{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:82px; 
+}
+
+#wt{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:80px; 
+}
+
+#c{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:93px; 
+}
+
+#subc{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:65px; 
+}
+
+#mobno{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:47px; 
+}
+
+#email{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:65px; 
+}
+
+#username{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:-14px; 
+}
+
+#password{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:56px; 
+}
+
+#repass{
+    padding-left: 85px;
+    padding: 4px;
+    margin-top: 2px;
+    margin-left:-22px; 
+}
+
+.terms{
+    padding: 10px;
+    padding-left: 45px;
+}
+
+.terms>input{
+    padding-left: 10px;
+}
+
+.terms>label{
+    /* margin-left: -30px;   */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.sub-res>button{
+    border: none;
+    height: 35px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.sub-res>button:hover{
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.87);
+}
+
+.submit{
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

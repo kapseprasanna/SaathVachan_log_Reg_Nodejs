@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saathVachan/login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login">
+
+        <form class="container" action="/login" method="post">
+
+            <h1>Login Form</h1>
+            <div class="inputbox">
+                <input type="text" name="username" required/>
+                <label for="">Username / Login</label>
+            </div>
+
+            <div class="inputbox">
+                <input type="password" name="password" required/>
+                <label for="">Password</label>
+            </div>
+
+            <div class="checkbox">
+                <span>
+                    <input type="checkbox" id="idcheckbox"/>
+                    <label for="idcheckbox">Remember Me</label>
+                </span>
+                <h5>Forget Password</h5>
+            </div>
+
+            <button type="submit" class="submitbtn">Login</button>
+            <h5 class="registerbtn">New User ? <a href="registeration.html">Register Now</a></h5>
+
+        </form>
+    </div>
+
+</body>
+</html>

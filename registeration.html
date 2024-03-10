@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaathVacha/registertion</title>
+    <link rel="stylesheet" href="registeration.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="head">
+            <h1>Register Here </h1>
+        </div>
+
+      <div class="sub">
+        <div class="formwala">
+
+            <form action="/registeration" method="post">
+               
+                <div class="form1">
+
+                    <label for="">First Name</label>
+                    <input type="text" id="firstname" name="firstname" required pattern="[a-zA-Z]*">
+                    <br>
+                
+                    <label for="">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                    <br>
+
+                    <label for="">Father Name</label>
+                    <input type="text" id="fathername" name="fathername" required>
+                    <br>
+
+                    <label for="">Mother Name</label>
+                    <input type="text" id="mothername" name="mothername" required>
+                    <br>
+
+                    <span>
+                        <label for="">Gender</label>
+                        <input type="radio" name="gender" id="gender" value="Male" required> Male
+                        
+                        <input type="radio" name="gender" id="gender" value="Female" required> Female
+                      
+                    
+                    </span>
+                    <br>
+                
+                    <label for="">BirthDate</label>
+                    <input type="date" name="birthdate" id="birthdate" required>
+                    <br>
+
+                    <label for="">Height</label>
+                    <input type="text" placeholder="In Inch" id="height" name="height" required >
+                    <br>
+
+                    <label for="">Weight</label>
+                    <input type="text" placeholder="In KiloGrams"
+                    id="weight" name="weight" required>
+                    <br>
+
+                    <label for="">Caste</label>
+                    <input type="text" id="caste" name="caste" required>
+                    <br>
+
+                    <label for="">Subcaste</label>
+                    <input type="text" id="subcaste" name="subcaste" required>
+                    <br>
+
+                    <label for="">Mobile No</label>
+                    <input type="number" name="mobileno" id="mobileno" required>
+                    <br>
+
+                    <label for="">Email Id</label>
+                    <input type="email" name="emailid" id="emailid" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" >
+                    <br>
+
+                    <label for="">Username / Login</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+
+                    <label for="">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <br>
+
+                    <label for="">Re-Type Password</label>
+                    <input type="password" name="confpassword" id="confpassword" required>
+                    <br>    
+
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" name="" id="" required >
+                    <label for="">I agree to <a href="">Privacy Policy</a> and <a href="">T&C</a></label>
+                </div>
+    
+                <div class="sub-res">
+                    <button class="submit">     
+                        Submit
+                    </button>
+                    &nbsp;
+                    <button class="reset" >
+                        Reset
+                    </button>
+                </div>
+    
+
+            </form>
+
+        </div>
+
+        <div class="photowala">
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="registeration.js"></script>
+
+</body>
+</html>
+
